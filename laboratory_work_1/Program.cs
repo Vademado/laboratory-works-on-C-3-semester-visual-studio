@@ -62,7 +62,7 @@ namespace laboratory_work_1
         }
     }
 
-    class Rectangle
+    public class Rectangle
     {
         private double _sideA, _sideB;
         public double Area { get => CalculateArea(); }
@@ -82,6 +82,52 @@ namespace laboratory_work_1
         private double CalculatePerimeter()
         {
             return 2 * (_sideA + _sideB);
+        }
+    }
+
+    public class Point
+    {
+        private int _x, _y;
+        public int x { get => _x; }
+        public int y { get => _y; }
+        public Point(int x, int y)
+        {
+            _x = x;
+            _y = y;
+        }
+    }
+
+    public class Figure
+    {
+        private Point _a;
+        private Point _b;
+        private Point _c;
+        private Point _d;
+        private Point _e;
+        private int _n;
+        public string name { get; set; }
+
+        public Figure(Point a, Point b, Point c)
+        {
+            _a = a;
+            _b = b;
+            _c = c;
+            _n = 3;
+        }
+        public Figure(Point a, Point b, Point c, Point d) : this(a, b, c)
+        {
+            _d = d;
+            _n = 4;
+        }
+        public Figure(Point a, Point b, Point c, Point d, Point e) : this(a, b, c, d)
+        {
+            _e = e;
+            _n = 5;
+        }
+
+        public double LengthSide(Point a, Point b)
+        {
+            return Math.Sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
         }
     }
 }

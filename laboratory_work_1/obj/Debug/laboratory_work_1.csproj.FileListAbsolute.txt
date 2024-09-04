@@ -5,3 +5,10 @@ D:\laboratory works on C# 3 semester visual studio\laboratory_work_1\obj\Debug\l
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_1\obj\Debug\laboratory_work_1.csproj.CoreCompileInputs.cache
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_1\obj\Debug\laboratory_work_1.exe
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_1\obj\Debug\laboratory_work_1.pdb
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\bin\Debug\laboratory_work_1.exe.config
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\bin\Debug\laboratory_work_1.exe
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\bin\Debug\laboratory_work_1.pdb
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\obj\Debug\laboratory_work_1.csproj.AssemblyReference.cache
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\obj\Debug\laboratory_work_1.csproj.CoreCompileInputs.cache
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\obj\Debug\laboratory_work_1.exe
+G:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_1\obj\Debug\laboratory_work_1.pdb
