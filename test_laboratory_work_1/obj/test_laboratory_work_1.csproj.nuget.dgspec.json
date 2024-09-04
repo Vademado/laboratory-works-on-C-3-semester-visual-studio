@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\laboratory works on C# 3 semester visual studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {}
+  },
+  "projects": {
+    "D:\\laboratory works on C# 3 semester visual studio\\laboratory_work_1\\laboratory_work_1.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\laboratory works on C# 3 semester visual studio\\laboratory_work_1\\laboratory_work_1.csproj",
+        "projectName": "laboratory_work_1",
+        "projectPath": "D:\\laboratory works on C# 3 semester visual studio\\laboratory_work_1\\laboratory_work_1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\laboratory works on C# 3 semester visual studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\laboratory works on C# 3 semester visual studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+        "projectName": "test_laboratory_work_1",
+        "projectPath": "D:\\laboratory works on C# 3 semester visual studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\laboratory works on C# 3 semester visual studio\\test_laboratory_work_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\laboratory works on C# 3 semester visual studio\\laboratory_work_1\\laboratory_work_1.csproj": {
+                "projectPath": "D:\\laboratory works on C# 3 semester visual studio\\laboratory_work_1\\laboratory_work_1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

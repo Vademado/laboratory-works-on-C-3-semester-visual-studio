@@ -55,33 +55,29 @@ namespace laboratory_work_1
 
             Console.WriteLine($"Тип dynamic(N/A): \t размер = N/A, \t MIN = N/A | MAX = N/A");
             #endregion
-
-            #region
-            Console.WriteLine("\t\t\t\t\t\t\t\tTask 2");
-            #endregion
         }
     }
 
     public class Rectangle
     {
-        private double _sideA, _sideB;
+        private double sideA, sideB;
         public double Area { get => CalculateArea(); }
         public double Perimeter { get => CalculatePerimeter(); }
 
         public Rectangle(double sideA, double sideB)
         {
-            _sideA = sideA;
-            _sideB = sideB;
+            this.sideA = sideA;
+            this.sideB = sideB;
         }
 
         private double CalculateArea()
         {
-            return _sideA * _sideB;
+            return sideA * sideB;
         }
 
         private double CalculatePerimeter()
         {
-            return 2 * (_sideA + _sideB);
+            return 2 * (sideA + sideB);
         }
     }
 
@@ -92,42 +88,54 @@ namespace laboratory_work_1
         public int y { get => _y; }
         public Point(int x, int y)
         {
-            _x = x;
-            _y = y;
+            this._x = x;
+            this._y = y;
         }
     }
 
     public class Figure
     {
-        private Point _a;
-        private Point _b;
-        private Point _c;
-        private Point _d;
-        private Point _e;
-        private int _n;
+        private Point point1, point2, point3, point4, point5;
         public string name { get; set; }
 
-        public Figure(Point a, Point b, Point c)
+        public Figure(Point point1, Point point2, Point point3)
         {
-            _a = a;
-            _b = b;
-            _c = c;
-            _n = 3;
-        }
-        public Figure(Point a, Point b, Point c, Point d) : this(a, b, c)
-        {
-            _d = d;
-            _n = 4;
-        }
-        public Figure(Point a, Point b, Point c, Point d, Point e) : this(a, b, c, d)
-        {
-            _e = e;
-            _n = 5;
+            this.point1 = point1;
+            this.point2 = point2;
+            this.point3 = point3;
+            name = "triangle";
         }
 
-        public double LengthSide(Point a, Point b)
+        public Figure(Point point1, Point point2, Point point3, Point point4) : this(point1, point2, point3)
         {
-            return Math.Sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
+            this.point4 = point4;
+            name = "quadrilateral";
+        }
+
+        public Figure(Point point1, Point point2, Point point3, Point point4, Point point5) : this(point1, point2, point3, point4)
+        {
+            this.point5 = point5;
+            name = "pentagon";
+        }
+
+        public double LengthSide(Point A, Point B)
+        {
+            return Math.Sqrt(Math.Pow(A.x - B.x, 2) + Math.Pow(A.y - B.y, 2));
+        }
+
+        public double PerimeterCalculator()
+        {
+            switch (name)
+            {
+                case "triangle":
+                    return LengthSide(point1, point2) + LengthSide(point2, point3) + LengthSide(point3, point1);
+                case "quadrilateral":
+                    return LengthSide(point1, point2) + LengthSide(point2, point3) + LengthSide(point3, point4) + LengthSide(point4, point1);
+                case "pentagon":
+                    return LengthSide(point1, point2) + LengthSide(point2, point3) + LengthSide(point3, point4) + LengthSide(point4, point5) + LengthSide(point5, point1);
+                default:
+                    return 0;
+            }
         }
     }
 }
