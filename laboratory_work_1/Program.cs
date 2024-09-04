@@ -61,4 +61,27 @@ namespace laboratory_work_1
             #endregion
         }
     }
+
+    class Rectangle
+    {
+        private double _sideA, _sideB;
+        public double Area { get => CalculateArea(); }
+        public double Perimeter { get => CalculatePerimeter(); }
+
+        public Rectangle(double sideA, double sideB)
+        {
+            _sideA = sideA;
+            _sideB = sideB;
+        }
+
+        private double CalculateArea()
+        {
+            return _sideA * _sideB;
+        }
+
+        private double CalculatePerimeter()
+        {
+            return 2 * (_sideA + _sideB);
+        }
+    }
 }
