@@ -31,7 +31,7 @@ namespace test_laboratory_work_1
             Point point3 = new Point(4, 0);
 
             Figure obj = new Figure(point1, point2, point3);
-            (string, double, double, double, double) programmAnswer = (obj.name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point1), obj.PerimeterCalculator());
+            (string, double, double, double, double) programmAnswer = (obj.Name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point1), obj.PerimeterCalculator());
 
             Assert.AreEqual(("triangle", 3.0, 5.0, 4.0, 12.0), programmAnswer);
         }
@@ -45,7 +45,7 @@ namespace test_laboratory_work_1
             Point point4 = new Point(0, -3);
 
             Figure obj = new Figure(point1, point2, point3, point4);
-            (string, double, double, double, double, double) programmAnswer = (obj.name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point4), obj.LengthSide(point4, point1), obj.PerimeterCalculator());
+            (string, double, double, double, double, double) programmAnswer = (obj.Name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point4), obj.LengthSide(point4, point1), obj.PerimeterCalculator());
 
             Assert.AreEqual(("quadrilateral", 5.0, 5.0, 5.0, 5.0, 20.0), programmAnswer);
         }
@@ -60,7 +60,7 @@ namespace test_laboratory_work_1
             Point point5 = new Point(-4, -5);
 
             Figure obj = new Figure(point1, point2, point3, point4, point5);
-            (string, double, double, double, double, double, double) programmAnswer = (obj.name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point4), obj.LengthSide(point4, point5), obj.LengthSide(point5, point1), obj.PerimeterCalculator());
+            (string, double, double, double, double, double, double) programmAnswer = (obj.Name, obj.LengthSide(point1, point2), obj.LengthSide(point2, point3), obj.LengthSide(point3, point4), obj.LengthSide(point4, point5), obj.LengthSide(point5, point1), obj.PerimeterCalculator());
 
             Assert.AreEqual(("pentagon", 5.0, 5.0, 5.0, 8.0, 5.0, 28.0), programmAnswer);
         }
