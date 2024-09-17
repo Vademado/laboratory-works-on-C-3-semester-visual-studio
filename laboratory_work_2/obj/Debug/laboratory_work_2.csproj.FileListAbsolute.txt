@@ -1,0 +1,7 @@
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\obj\Debug\laboratory_work_2.csproj.AssemblyReference.cache
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\obj\Debug\laboratory_work_2.csproj.CoreCompileInputs.cache
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\bin\Debug\laboratory_work_2.exe.config
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\bin\Debug\laboratory_work_2.exe
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\bin\Debug\laboratory_work_2.pdb
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\obj\Debug\laboratory_work_2.exe
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_2\obj\Debug\laboratory_work_2.pdb
