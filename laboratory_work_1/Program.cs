@@ -83,49 +83,49 @@ namespace laboratory_work_1
 
     public class Point
     {
-        private int _x, _y;
-        public int x { get => _x; }
-        public int y { get => _y; }
+        private int x, y;
+        public int X { get => x; }
+        public int Y { get => y; }
         public Point(int x, int y)
         {
-            this._x = x;
-            this._y = y;
+            this.x = x;
+            this.y = y;
         }
     }
 
     public class Figure
     {
         private Point point1, point2, point3, point4, point5;
-        public string name { get; set; }
+        public string Name { get; set; }
 
         public Figure(Point point1, Point point2, Point point3)
         {
             this.point1 = point1;
             this.point2 = point2;
             this.point3 = point3;
-            name = "triangle";
+            Name = "triangle";
         }
 
         public Figure(Point point1, Point point2, Point point3, Point point4) : this(point1, point2, point3)
         {
             this.point4 = point4;
-            name = "quadrilateral";
+            Name = "quadrilateral";
         }
 
         public Figure(Point point1, Point point2, Point point3, Point point4, Point point5) : this(point1, point2, point3, point4)
         {
             this.point5 = point5;
-            name = "pentagon";
+            Name = "pentagon";
         }
 
         public double LengthSide(Point A, Point B)
         {
-            return Math.Sqrt(Math.Pow(A.x - B.x, 2) + Math.Pow(A.y - B.y, 2));
+            return Math.Sqrt(Math.Pow(A.X - B.X, 2) + Math.Pow(A.Y - B.Y, 2));
         }
 
         public double PerimeterCalculator()
         {
-            switch (name)
+            switch (Name)
             {
                 case "triangle":
                     return LengthSide(point1, point2) + LengthSide(point2, point3) + LengthSide(point3, point1);
