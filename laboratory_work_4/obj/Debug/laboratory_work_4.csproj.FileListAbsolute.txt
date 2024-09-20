@@ -1,0 +1,7 @@
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\bin\Debug\laboratory_work_4.exe.config
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\bin\Debug\laboratory_work_4.exe
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\bin\Debug\laboratory_work_4.pdb
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\obj\Debug\laboratory_work_4.csproj.AssemblyReference.cache
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\obj\Debug\laboratory_work_4.csproj.CoreCompileInputs.cache
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\obj\Debug\laboratory_work_4.exe
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_4\obj\Debug\laboratory_work_4.pdb
