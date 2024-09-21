@@ -11,18 +11,48 @@ namespace laboratory_work_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите размерность матрицы");
-            Console.Write("Количество строк: ");
-            uint m = Convert.ToUInt32(Console.ReadLine());
-            Console.Write("Количество столбцов: ");
-            uint n = Convert.ToUInt32(Console.ReadLine());
-            Console.WriteLine("Введите диапозон элементов матрицы");
-            Console.Write("Минимальное значение: ");
-            int minValue = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Максимальное значение: ");
-            int maxValue = Convert.ToInt32(Console.ReadLine());
-            MyMatrix matrix = new MyMatrix(m, n, minValue, maxValue);
-            Console.WriteLine(matrix);
+            //Console.WriteLine("Введите размерность матрицы");
+            //Console.Write("Количество строк: ");
+            //uint m = Convert.ToUInt32(Console.ReadLine());
+            //Console.Write("Количество столбцов: ");
+            //uint n = Convert.ToUInt32(Console.ReadLine());
+            //Console.WriteLine("Введите диапозон элементов матрицы");
+            //Console.Write("Минимальное значение: ");
+            //int minValue = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Максимальное значение: ");
+            //int maxValue = Convert.ToInt32(Console.ReadLine());
+            //MyMatrix matrix = new MyMatrix(m, n, minValue, maxValue);
+            //Console.WriteLine(matrix);
+
+            Car[] cars =
+            {
+                new Car("Mercedes-Benz CLK GTR", 1999, 320),
+                new Car("Ferrari F40", 1992, 324),
+                new Car("Porsche 911 GT1", 1998, 330)
+            };
+            Console.WriteLine("Sorting by name");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.Name));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
+            Console.Write("\n\n");
+            
+            Console.WriteLine("Sorting by production year");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.ProductionYear));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
+            Console.Write("\n\n");
+            
+            Console.WriteLine("Sorting by max speed");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.MaxSpeed));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
+            Console.Write("\n\n");
         }
     }
 
@@ -172,10 +202,42 @@ namespace laboratory_work_4
             ProductionYear = productionYear;
             MaxSpeed = maxSpeed;
         }
+        public override string ToString()
+        {
+            return $"{Name}  production year: {ProductionYear}  max speed: {MaxSpeed}";
+        }
     }
 
     class CarComparer : IComparer<Car>
     {
+        private CompareBy compareBy;
+        public enum CompareBy : byte
+        {
+            Name,
+            ProductionYear,
+            MaxSpeed
+        }
 
+        public CarComparer(CompareBy compareBy)
+        {
+            this.compareBy = compareBy;
+        }
+
+        public int Compare(Car x, Car y)
+        {
+            if (x is null || y is null)
+                throw new ArgumentException("Invalid parameter value");
+            switch (compareBy)
+            {
+                case CompareBy.Name:
+                    return x.Name.CompareTo(y.Name);
+                case CompareBy.ProductionYear:
+                    return x.ProductionYear.CompareTo(y.ProductionYear);
+                case CompareBy.MaxSpeed:
+                    return x.MaxSpeed.CompareTo(y.MaxSpeed);
+                default:
+                    return x.MaxSpeed.CompareTo(y.MaxSpeed);
+            }
+        }
     }
 }
