@@ -1,5 +1,6 @@
 ﻿using Microsoft.SqlServer.Server;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,29 +31,35 @@ namespace laboratory_work_4
                 new Car("Ferrari F40", 1992, 324),
                 new Car("Porsche 911 GT1", 1998, 330)
             };
-            Console.WriteLine("Sorting by name");
-            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.Name));
-            foreach (Car car in cars)
+            //Console.WriteLine("Sorting by name");
+            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.Name));
+            //foreach (Car car in cars)
+            //{
+            //    Console.WriteLine(car);
+            //}
+            //Console.Write("\n\n");
+
+            //Console.WriteLine("Sorting by production year");
+            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.ProductionYear));
+            //foreach (Car car in cars)
+            //{
+            //    Console.WriteLine(car);
+            //}
+            //Console.Write("\n\n");
+
+            //Console.WriteLine("Sorting by max speed");
+            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.MaxSpeed));
+            //foreach (Car car in cars)
+            //{
+            //    Console.WriteLine(car);
+            //}
+            //Console.Write("\n\n");
+
+            CarCatalog carCatalog = new CarCatalog(cars);
+            foreach(Car car in carCatalog.GetEnumeratorMaxSpeed(220))
             {
-                Console.WriteLine(car);
+
             }
-            Console.Write("\n\n");
-            
-            Console.WriteLine("Sorting by production year");
-            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.ProductionYear));
-            foreach (Car car in cars)
-            {
-                Console.WriteLine(car);
-            }
-            Console.Write("\n\n");
-            
-            Console.WriteLine("Sorting by max speed");
-            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.MaxSpeed));
-            foreach (Car car in cars)
-            {
-                Console.WriteLine(car);
-            }
-            Console.Write("\n\n");
         }
     }
 
@@ -238,6 +245,45 @@ namespace laboratory_work_4
                 default:
                     return x.MaxSpeed.CompareTo(y.MaxSpeed);
             }
+        }
+    }
+    class CarCatalog
+    {
+        private Car[] cars;
+        public Car[] Cars
+        {
+            get 
+            { 
+                Car[] returnedCars = new Car[cars.Length];
+                for (int i = 0; i < returnedCars.Length; i++) 
+                {
+                    Car newCar = new Car(cars[i].Name, cars[i].ProductionYear, cars[i].MaxSpeed);
+                    returnedCars[i] = newCar;
+                }
+                return returnedCars;
+            }
+        }
+
+        public CarCatalog(Car[] cars) => this.cars = cars;
+
+        public IEnumerator<Car> GetEnumerator()
+        {
+            foreach (Car car in cars) yield return car;
+        }
+
+        public IEnumerator<Car> GetInverseNumerator()
+        {
+            for (int i = cars.Length - 1; i != 0; i--) yield return cars[i];
+        }
+
+        public IEnumerator<Car> GetEnumeratorProductionYear(int productionYear)
+        {
+            for (int i = 0; i < cars.Length; i++) if (cars[i].ProductionYear == productionYear) yield return cars[i];
+        }
+
+        public IEnumerator<Car> GetEnumeratorMaxSpeed(int maxSpeed)
+        {
+            for (int i = 0; i < cars.Length; i++) if (cars[i].MaxSpeed == maxSpeed) yield return cars[i];
         }
     }
 }
