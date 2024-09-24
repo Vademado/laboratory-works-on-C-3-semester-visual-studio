@@ -12,18 +12,18 @@ namespace laboratory_work_4
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Введите размерность матрицы");
-            //Console.Write("Количество строк: ");
-            //uint m = Convert.ToUInt32(Console.ReadLine());
-            //Console.Write("Количество столбцов: ");
-            //uint n = Convert.ToUInt32(Console.ReadLine());
-            //Console.WriteLine("Введите диапозон элементов матрицы");
-            //Console.Write("Минимальное значение: ");
-            //int minValue = Convert.ToInt32(Console.ReadLine());
-            //Console.Write("Максимальное значение: ");
-            //int maxValue = Convert.ToInt32(Console.ReadLine());
-            //MyMatrix matrix = new MyMatrix(m, n, minValue, maxValue);
-            //Console.WriteLine(matrix);
+            Console.WriteLine("Введите размерность матрицы");
+            Console.Write("Количество строк: ");
+            uint m = Convert.ToUInt32(Console.ReadLine());
+            Console.Write("Количество столбцов: ");
+            uint n = Convert.ToUInt32(Console.ReadLine());
+            Console.WriteLine("Введите диапозон элементов матрицы");
+            Console.Write("Минимальное значение: ");
+            int minValue = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Максимальное значение: ");
+            int maxValue = Convert.ToInt32(Console.ReadLine());
+            MyMatrix matrix = new MyMatrix(m, n, minValue, maxValue);
+            Console.WriteLine(matrix);
 
             Car[] cars =
             {
@@ -31,34 +31,48 @@ namespace laboratory_work_4
                 new Car("Ferrari F40", 1992, 324),
                 new Car("Porsche 911 GT1", 1998, 330)
             };
-            //Console.WriteLine("Sorting by name");
-            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.Name));
-            //foreach (Car car in cars)
-            //{
-            //    Console.WriteLine(car);
-            //}
-            //Console.Write("\n\n");
 
-            //Console.WriteLine("Sorting by production year");
-            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.ProductionYear));
-            //foreach (Car car in cars)
-            //{
-            //    Console.WriteLine(car);
-            //}
-            //Console.Write("\n\n");
+            Console.WriteLine("Sorting by name");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.Name));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
 
-            //Console.WriteLine("Sorting by max speed");
-            //Array.Sort(cars, new CarComparer(CarComparer.CompareBy.MaxSpeed));
-            //foreach (Car car in cars)
-            //{
-            //    Console.WriteLine(car);
-            //}
-            //Console.Write("\n\n");
+            Console.WriteLine("Sorting by production year");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.ProductionYear));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
+
+            Console.WriteLine("Sorting by max speed");
+            Array.Sort(cars, new CarComparer(CarComparer.CompareBy.MaxSpeed));
+            foreach (Car car in cars)
+            {
+                Console.WriteLine(car);
+            }
 
             CarCatalog carCatalog = new CarCatalog(cars);
-            foreach(Car car in carCatalog.GetEnumeratorMaxSpeed(220))
-            {
 
+            foreach (Car car in carCatalog)
+            {
+                Console.WriteLine(car);
+            }
+
+            foreach (Car car in carCatalog.GetInverseEnumerator())
+            {
+                Console.WriteLine(car);
+            }
+
+            foreach (Car car in carCatalog.GetEnumeratorProductionYear(1998))
+            {
+                Console.WriteLine(car);
+            }
+
+            foreach (Car car in carCatalog.GetEnumeratorMaxSpeed(320))
+            {
+                Console.WriteLine(car);
             }
         }
     }
@@ -247,15 +261,15 @@ namespace laboratory_work_4
             }
         }
     }
-    class CarCatalog
+    class CarCatalog : IEnumerable<Car>
     {
         private Car[] cars;
         public Car[] Cars
         {
-            get 
-            { 
+            get
+            {
                 Car[] returnedCars = new Car[cars.Length];
-                for (int i = 0; i < returnedCars.Length; i++) 
+                for (int i = 0; i < returnedCars.Length; i++)
                 {
                     Car newCar = new Car(cars[i].Name, cars[i].ProductionYear, cars[i].MaxSpeed);
                     returnedCars[i] = newCar;
@@ -270,18 +284,22 @@ namespace laboratory_work_4
         {
             foreach (Car car in cars) yield return car;
         }
-
-        public IEnumerator<Car> GetInverseNumerator()
+        IEnumerator IEnumerable.GetEnumerator()
         {
-            for (int i = cars.Length - 1; i != 0; i--) yield return cars[i];
+            return GetEnumerator();
         }
 
-        public IEnumerator<Car> GetEnumeratorProductionYear(int productionYear)
+        public IEnumerable<Car> GetInverseEnumerator()
+        {
+            for (int i = cars.Length - 1; i > -1; i--) yield return cars[i];
+        }
+
+        public IEnumerable<Car> GetEnumeratorProductionYear(int productionYear)
         {
             for (int i = 0; i < cars.Length; i++) if (cars[i].ProductionYear == productionYear) yield return cars[i];
         }
 
-        public IEnumerator<Car> GetEnumeratorMaxSpeed(int maxSpeed)
+        public IEnumerable<Car> GetEnumeratorMaxSpeed(int maxSpeed)
         {
             for (int i = 0; i < cars.Length; i++) if (cars[i].MaxSpeed == maxSpeed) yield return cars[i];
         }
