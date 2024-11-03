@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json.Linq;
 
 namespace laboratory_work_6
 {
@@ -12,6 +13,7 @@ namespace laboratory_work_6
     {
         static void Main(string[] args)
         {
+            Weather a = new Weather();
         }
     }
 
@@ -31,7 +33,7 @@ namespace laboratory_work_6
             latitude = random.NextDouble() + random.Next(-90, 91);
             longitude = random.NextDouble() + random.Next(-180, 181);
             ReadAPIKey();
-            GetData();
+            GetData().GetAwaiter().GetResult();
         }
 
         private void ReadAPIKey(string filePath = "D:/laboratory works on C# 3 semester visual studio/laboratory_work_6/api_key.txt")
@@ -43,16 +45,26 @@ namespace laboratory_work_6
             else { throw new ArgumentException("Incorrect path to the api key file"); }
         }
 
-        private async void GetData()
+        public async Task GetData()
         {
-            string URL = $"https://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={APIKey}";
+            string URL = $"http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&appid={APIKey}";
             try
             {
-                //HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, URL);
-                //HttpResponseMessage responseMessage = httpClient.SendAsync(requestMessage).Result;
-                HttpResponseMessage response = await httpClient.GetAsync(URL);
-                string content = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(content, 12);
+                HttpRequestMessage requestMessage = new HttpRequestMessage(HttpMethod.Get, URL);
+                HttpResponseMessage responseMessage = await httpClient.SendAsync(requestMessage);
+                string jsonResponse = await responseMessage.Content.ReadAsStringAsync();
+                Console.WriteLine($"{jsonResponse}\n");
+
+                Console.WriteLine(new string('-', 50));
+                JObject jObject = JObject.Parse(jsonResponse);
+                Console.WriteLine(jObject);
+                Console.WriteLine(new string('-', 50));
+                if (jObject["sys"]["country"] != null) { Console.WriteLine("None"); }
+                else { Console.WriteLine(jObject["sys"]["country"]); }
+                if (jObject["name"]  != null) { Console.WriteLine("None"); }
+                else { Console.WriteLine(jObject["name"]); }
+                Console.WriteLine(jObject["sys"]["country"]);
+                Console.WriteLine(jObject["name"]);
             }
             catch (Exception ex)
             {

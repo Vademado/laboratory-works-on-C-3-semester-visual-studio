@@ -5,3 +5,6 @@ D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\l
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\laboratory_work_6.csproj.CoreCompileInputs.cache
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\laboratory_work_6.exe
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\laboratory_work_6.pdb
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.dll
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.xml
+D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\laborato.5432EB92.Up2Date
