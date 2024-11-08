@@ -8,3 +8,13 @@ D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\l
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.dll
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.xml
 D:\laboratory works on C# 3 semester visual studio\laboratory_work_6\obj\Debug\laborato.5432EB92.Up2Date
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\bin\Debug\laboratory_work_6.exe.config
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\bin\Debug\laboratory_work_6.exe
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\bin\Debug\laboratory_work_6.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\bin\Debug\Newtonsoft.Json.xml
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\obj\Debug\laboratory_work_6.csproj.AssemblyReference.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\obj\Debug\laboratory_work_6.csproj.CoreCompileInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\obj\Debug\laborato.5432EB92.Up2Date
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\obj\Debug\laboratory_work_6.exe
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_6\obj\Debug\laboratory_work_6.pdb
