@@ -133,7 +133,7 @@ namespace laboratory_work_6
         {
             int uniqueCountryCount = weatherInLocations.Select(x => x.Country).Distinct().Count();
 
-            Console.WriteLine(uniqueCountryCount);
+            Console.WriteLine($"The number of countries: {uniqueCountryCount}");
         }
 
         public static void GetFirstLocationsWithWeatherDescriptions(List<Weather> weatherInLocations, params string[] descriptions)
