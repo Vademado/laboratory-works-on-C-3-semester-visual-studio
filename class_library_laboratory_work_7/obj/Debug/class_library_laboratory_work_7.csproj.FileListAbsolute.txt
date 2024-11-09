@@ -1,0 +1,6 @@
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\bin\Debug\class_library_laboratory_work_7.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\bin\Debug\class_library_laboratory_work_7.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.csproj.AssemblyReference.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.csproj.CoreCompileInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.pdb
