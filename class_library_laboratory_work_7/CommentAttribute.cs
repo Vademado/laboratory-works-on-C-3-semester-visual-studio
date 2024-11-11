@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace class_library_laboratory_work_7
 {
+    [AttributeUsage(AttributeTargets.Class)]
     class CommentAttribute : Attribute
     {
         public string Comment { get; }

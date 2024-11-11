@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace class_library_laboratory_work_7
 {
-    [Comment()]
+    [Comment("abstract class Animal")]
      public abstract class Animal
     {
         public string Country { get; set; }

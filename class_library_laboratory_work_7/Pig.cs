@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace class_library_laboratory_work_7
 {
-    [Comment("Pig")]
+    [Comment("Pig class (parent class Animal)")]
     public class Pig : Animal
     {
         public override eClassificationAnimal WhatAnimal { get => eClassificationAnimal.Omnivores; }
