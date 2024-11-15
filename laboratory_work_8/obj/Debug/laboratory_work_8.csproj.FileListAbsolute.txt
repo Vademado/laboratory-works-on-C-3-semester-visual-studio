@@ -1,0 +1,10 @@
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\bin\Debug\laboratory_work_8.exe.config
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\bin\Debug\laboratory_work_8.exe
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\bin\Debug\laboratory_work_8.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\bin\Debug\class_library_laboratory_work_7.dll
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\bin\Debug\class_library_laboratory_work_7.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\obj\Debug\laboratory_work_8.csproj.AssemblyReference.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\obj\Debug\laboratory_work_8.csproj.CoreCompileInputs.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\obj\Debug\laborato.5432E964.Up2Date
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\obj\Debug\laboratory_work_8.exe
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_8\obj\Debug\laboratory_work_8.pdb

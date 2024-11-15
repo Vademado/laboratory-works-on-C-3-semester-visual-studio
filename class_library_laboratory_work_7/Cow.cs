@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace class_library_laboratory_work_7
 {
@@ -10,6 +11,8 @@ namespace class_library_laboratory_work_7
     public class Cow : Animal
     {
         public override eClassificationAnimal WhatAnimal { get => eClassificationAnimal.Herbivores; }
+
+        public Cow() : base() { }
 
         public Cow(string country, string name, bool hideFromOtherAnimals = true) : base(country, name, hideFromOtherAnimals) { }
         public override void Deconstruct()

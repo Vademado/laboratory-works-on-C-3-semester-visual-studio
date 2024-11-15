@@ -4,3 +4,9 @@ E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_
 E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.csproj.CoreCompileInputs.cache
 E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.dll
 E:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\bin\Debug\class_library_laboratory_work_7.dll
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\bin\Debug\class_library_laboratory_work_7.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.csproj.AssemblyReference.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.csproj.CoreCompileInputs.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.dll
+D:\laboratory-works-on-C-3-semester-visual-studio\class_library_laboratory_work_7\obj\Debug\class_library_laboratory_work_7.pdb

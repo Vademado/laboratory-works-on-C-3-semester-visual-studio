@@ -11,6 +11,7 @@ namespace class_library_laboratory_work_7
     {
         public override eClassificationAnimal WhatAnimal { get => eClassificationAnimal.Carnivores; }
 
+        public Lion() : base() { }
         public Lion(string country, string name, bool hideFromOtherAnimals = false) : base(country, name, hideFromOtherAnimals) { }
         public override void Deconstruct()
         {

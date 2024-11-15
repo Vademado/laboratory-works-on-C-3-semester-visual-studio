@@ -50,7 +50,7 @@ namespace laboratory_work_6
             GetData().GetAwaiter().GetResult();
         }
 
-        private static void ReadAPIKey(string filePath = "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_6\\api_key.txt")
+        private static void ReadAPIKey(string filePath = "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_6\\api_key.txt")
         {
             if (File.Exists(filePath))
             {

@@ -11,7 +11,10 @@ namespace class_library_laboratory_work_7
     {
         public override eClassificationAnimal WhatAnimal { get => eClassificationAnimal.Omnivores; }
 
+        public Pig() : base() { }
+
         public Pig(string country, string name, bool hideFromOtherAnimals = true) : base(country, name, hideFromOtherAnimals) { }
+
         public override void Deconstruct()
         {
             Console.WriteLine("The pig is destroyed");

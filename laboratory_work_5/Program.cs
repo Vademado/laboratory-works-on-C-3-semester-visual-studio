@@ -187,84 +187,83 @@ namespace laboratory_work_5
             Key = key;
             Value = value;
         }
+    }
+    class MyDictionary<TKey, TValue> : IEnumerable<MyKeyValuePair<TKey, TValue>>
+    {
+        private MyKeyValuePair<TKey, TValue>[] dictionary;
+        public int Count { get; private set; } = 0;
 
-        class MyDictionary<TKey, TValue> : IEnumerable<MyKeyValuePair<TKey, TValue>>
+        public TValue this[TKey key]
         {
-            private MyKeyValuePair<TKey, TValue>[] dictionary;
-            public int Count { get; private set; } = 0;
-
-            public TValue this[TKey key]
-            {
-                get
-                {
-                    for (int i = 0; i < Count; i++)
-                    {
-                        if (dictionary[i].Key.Equals(key)) return dictionary[i].Value;
-                    }
-                    throw new ArgumentException();
-                }
-                set
-                {
-                    bool found = false;
-                    for (int i = 0; i < Count; i++)
-                    {
-                        if (dictionary[i].Key.Equals(key))
-                        {
-                            dictionary[i].Value = value;
-                            found = true;
-                            break;
-                        }
-                    }
-                    if (!found) Add(key, value);
-                }
-            }
-
-            public IEnumerator<MyKeyValuePair<TKey, TValue>> GetEnumerator()
+            get
             {
                 for (int i = 0; i < Count; i++)
-                    yield return dictionary[i];
-            }
-            IEnumerator IEnumerable.GetEnumerator()
-            {
-                return GetEnumerator();
-            }
-            public MyDictionary()
-            {
-                dictionary = new MyKeyValuePair<TKey, TValue>[0];
-            }
-
-            public MyDictionary(MyKeyValuePair<TKey, TValue>[] item)
-            {
-                MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[item.Length];
-                for (int i = 0; i < resultingDictionary.Length; i++)
                 {
-                    resultingDictionary[i] = item[i];
+                    if (dictionary[i].Key.Equals(key)) return dictionary[i].Value;
                 }
-                dictionary = resultingDictionary;
-                Count = resultingDictionary.Length;
+                throw new ArgumentException();
             }
-
-            public MyDictionary(MyKeyValuePair<TKey, TValue> item)
+            set
             {
-                MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[1];
-                MyKeyValuePair<TKey, TValue> resultingItem = new MyKeyValuePair<TKey, TValue>(item.Key, item.Value);
-                resultingDictionary[0] = resultingItem;
-                dictionary = resultingDictionary;
-                Count = resultingDictionary.Length;
-            }
-
-            public void Add(TKey key, TValue value)
-            {
-                MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[Count + 1];
-                MyKeyValuePair<TKey, TValue> resultingItem = new MyKeyValuePair<TKey, TValue>(key, value);
+                bool found = false;
                 for (int i = 0; i < Count; i++)
                 {
-                    resultingDictionary[i] = dictionary[i];
+                    if (dictionary[i].Key.Equals(key))
+                    {
+                        dictionary[i].Value = value;
+                        found = true;
+                        break;
+                    }
                 }
-                resultingDictionary[Count] = resultingItem;
-                dictionary = resultingDictionary;
-                Count = resultingDictionary.Length;
+                if (!found) Add(key, value);
             }
+        }
+
+        public IEnumerator<MyKeyValuePair<TKey, TValue>> GetEnumerator()
+        {
+            for (int i = 0; i < Count; i++)
+                yield return dictionary[i];
+        }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+        public MyDictionary()
+        {
+            dictionary = new MyKeyValuePair<TKey, TValue>[0];
+        }
+
+        public MyDictionary(MyKeyValuePair<TKey, TValue>[] item)
+        {
+            MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[item.Length];
+            for (int i = 0; i < resultingDictionary.Length; i++)
+            {
+                resultingDictionary[i] = item[i];
+            }
+            dictionary = resultingDictionary;
+            Count = resultingDictionary.Length;
+        }
+
+        public MyDictionary(MyKeyValuePair<TKey, TValue> item)
+        {
+            MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[1];
+            MyKeyValuePair<TKey, TValue> resultingItem = new MyKeyValuePair<TKey, TValue>(item.Key, item.Value);
+            resultingDictionary[0] = resultingItem;
+            dictionary = resultingDictionary;
+            Count = resultingDictionary.Length;
+        }
+
+        public void Add(TKey key, TValue value)
+        {
+            MyKeyValuePair<TKey, TValue>[] resultingDictionary = new MyKeyValuePair<TKey, TValue>[Count + 1];
+            MyKeyValuePair<TKey, TValue> resultingItem = new MyKeyValuePair<TKey, TValue>(key, value);
+            for (int i = 0; i < Count; i++)
+            {
+                resultingDictionary[i] = dictionary[i];
+            }
+            resultingDictionary[Count] = resultingItem;
+            dictionary = resultingDictionary;
+            Count = resultingDictionary.Length;
         }
     }
 }
