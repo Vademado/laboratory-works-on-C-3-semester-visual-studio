@@ -1012,19 +1012,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\sergo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+      "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
       "projectName": "test_laboratory_work_1",
-      "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\obj\\",
+      "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+      "packagesPath": "C:\\Users\\sergo\\.nuget\\packages\\",
+      "outputPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1038,8 +1043,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
-              "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj"
+            "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
+              "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj"
             }
           }
         }
@@ -1052,8 +1057,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1092,7 +1098,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
