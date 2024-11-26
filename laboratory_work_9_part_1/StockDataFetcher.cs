@@ -117,7 +117,6 @@ namespace laboratory_work_9
 
         private async Task<JObject> GetJsonResponse(HttpResponseMessage responseMessages)
         {
-            //if (responseMessages is null) throw new ArgumentNullException("responseMessages");
             if (responseMessages is null) return new JObject();
             string jsonString = await responseMessages.Content.ReadAsStringAsync();
             return JObject.Parse(jsonString);

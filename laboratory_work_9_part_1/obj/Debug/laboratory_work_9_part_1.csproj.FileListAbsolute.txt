@@ -8,3 +8,13 @@ E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\D
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laborato.3980682A.Up2Date
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.exe
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\bin\Debug\laboratory_work_9_part_1.exe.config
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\bin\Debug\laboratory_work_9_part_1.exe
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\bin\Debug\laboratory_work_9_part_1.pdb
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\bin\Debug\Newtonsoft.Json.dll
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\bin\Debug\Newtonsoft.Json.xml
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.csproj.AssemblyReference.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.csproj.CoreCompileInputs.cache
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laborato.3980682A.Up2Date
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.exe
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_9_part_1\obj\Debug\laboratory_work_9_part_1.pdb
