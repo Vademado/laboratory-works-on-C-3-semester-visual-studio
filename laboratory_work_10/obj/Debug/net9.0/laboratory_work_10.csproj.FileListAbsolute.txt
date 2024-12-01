@@ -145,3 +145,4 @@ D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_10\obj\Debug\n
 D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_10\obj\Debug\net9.0\laboratory_work_10.pdb
 D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_10\obj\Debug\net9.0\laboratory_work_10.genruntimeconfig.cache
 D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_10\obj\Debug\net9.0\ref\laboratory_work_10.dll
+D:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_10\bin\Debug\net9.0\Newtonsoft.Json.dll

@@ -1,3 +1,70 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-// Data Source=localhost;Initial Catalog=StockPrices;User ID=sa;Password=HelloWorld10;Trust Server Certificate=True
+﻿// Data Source=localhost;Initial Catalog=StockPrices;User ID=sa;Password=HelloWorld10;Trust Server Certificate=True
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Newtonsoft.Json.Linq;
+namespace laboratory_work_10
+{
+    internal class Program
+    {
+        static async Task Main(string[] args)
+        {
+            StockDataFetcher stockDataFetcher = new StockDataFetcher();
+            await stockDataFetcher.GetDataAsync();
+            await SeedDatabase(stockDataFetcher.JsonResponses);
+
+            GetTodayCondition("AADI");
+        }
+
+        public static async Task SeedDatabase(List<JObject> jsonResponces)
+        {
+            using StockPricesDbContext db = new StockPricesDbContext();
+            List<Task<EntityEntry<Price>>> tasksAddPrices = new List<Task<EntityEntry<Price>>>();
+            foreach (JObject response in jsonResponces)
+            {
+                Ticker? ticker = new Ticker() { TickerName = response["tiсker"].ToString() };
+                await db.Tickers.AddAsync(ticker);
+                await db.SaveChangesAsync();
+                var prices = (from i in response["c"] select i.Value<float>()).ToList();
+                for (int i = 0; i < prices.Count; i++)
+                {
+                    tasksAddPrices.Add(db.AddAsync(new Price() { TickerId = ticker.Id, PriceOnDate = prices[i], Date = new DateOnly(DateTime.Now.AddYears(-1).Year, DateTime.Now.Month, DateTime.Now.AddDays(1 + i).Day) }).AsTask());
+                }
+                if (prices[prices.Count - 1] > prices[prices.Count - 2]) await db.TodaysConditions.AddAsync(new TodaysCondition() { TickerId = ticker.Id, State = "Growth" });
+                else if (prices[prices.Count - 1] < prices[prices.Count - 2]) await db.TodaysConditions.AddAsync(new TodaysCondition() { TickerId = ticker.Id, State = "Decline" });
+                else await db.TodaysConditions.AddAsync(new TodaysCondition() { TickerId = ticker.Id, State = "Unchanged" });
+            }
+            await Task.WhenAll(tasksAddPrices);
+            await db.SaveChangesAsync();
+        }
+
+        public static void GetTodayCondition(string tickerName, StockPricesDbContext? db = null)
+        {
+            if (db is null) using (db = new StockPricesDbContext()) { GetTodayCondition(tickerName,db); return; }
+            var todayCondition = (from tc in db.TodaysConditions
+                                   select new
+                                   { TickerName = (from t in db.Tickers
+                                                   where t.Id == tc.TickerId
+                                                   where t.TickerName == tickerName
+                                                   select t.TickerName).FirstOrDefault(),
+                                     TickerState = tc.State
+                                   }).FirstOrDefault();
+            Console.WriteLine($"Ticker: {todayCondition.TickerName}, State: {todayCondition.TickerState}");
+        }
+        public static List<Ticker> GetTickerList(StockPricesDbContext? db = null)
+        {
+            if (db is null) using (db = new StockPricesDbContext()) return GetTickerList(db);
+            return db.Tickers.ToList();
+        }
+
+        public static List<Price> GetPricesList(StockPricesDbContext? db = null)
+        {
+            if (db is null) using (db = new StockPricesDbContext()) return GetPricesList(db);
+            return db.Prices.ToList();
+        }
+
+        public static List<TodaysCondition> GetTodaysConditions(StockPricesDbContext? db = null)
+        {
+            if (db is null) using (db = new StockPricesDbContext()) return GetTodaysConditions(db);
+            return db.TodaysConditions.ToList();
+        }
+    }
+}
