@@ -11,7 +11,8 @@ namespace laboratory_work_10
             await stockDataFetcher.GetDataAsync();
             await SeedDatabase(stockDataFetcher.JsonResponses);
 
-            GetTodayCondition("AADI");
+            string? tickerName = Console.ReadLine();
+            GetTodayCondition(tickerName);
         }
 
         public static async Task SeedDatabase(List<JObject> jsonResponces)
@@ -38,15 +39,15 @@ namespace laboratory_work_10
 
         public static void GetTodayCondition(string tickerName, StockPricesDbContext? db = null)
         {
-            if (db is null) using (db = new StockPricesDbContext()) { GetTodayCondition(tickerName,db); return; }
-            var todayCondition = (from tc in db.TodaysConditions
-                                   select new
-                                   { TickerName = (from t in db.Tickers
-                                                   where t.Id == tc.TickerId
-                                                   where t.TickerName == tickerName
-                                                   select t.TickerName).FirstOrDefault(),
-                                     TickerState = tc.State
-                                   }).FirstOrDefault();
+            if (db is null) using (db = new StockPricesDbContext()) { GetTodayCondition(tickerName, db); return; }
+            var todayCondition = (from t in db.Tickers
+                                  join todC in db.TodaysConditions on t.Id equals todC.TickerId
+                                  where t.TickerName == "AADI"
+                                  select new
+                                  {
+                                      TickerName = tickerName,
+                                      TickerState = todC.State
+                                  }).FirstOrDefault();
             Console.WriteLine($"Ticker: {todayCondition.TickerName}, State: {todayCondition.TickerState}");
         }
         public static List<Ticker> GetTickerList(StockPricesDbContext? db = null)
