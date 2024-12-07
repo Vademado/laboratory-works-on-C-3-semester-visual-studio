@@ -11,6 +11,7 @@ namespace laboratory_work_10
             await stockDataFetcher.GetDataAsync();
             await SeedDatabase(stockDataFetcher.JsonResponses);
 
+            Console.Write("Enter the name of the ticker: ");
             string? tickerName = Console.ReadLine();
             GetTodayCondition(tickerName);
         }
