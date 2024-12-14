@@ -7,9 +7,9 @@ namespace laboratory_work_10
     {
         static async Task Main(string[] args)
         {
-            StockDataFetcher stockDataFetcher = new StockDataFetcher();
-            await stockDataFetcher.GetDataAsync();
-            await SeedDatabase(stockDataFetcher.JsonResponses);
+            //StockDataFetcher stockDataFetcher = new StockDataFetcher();
+            //await stockDataFetcher.GetDataAsync();
+            //await SeedDatabase(stockDataFetcher.JsonResponses);
 
             Console.Write("Enter the name of the ticker: ");
             string? tickerName = Console.ReadLine();
