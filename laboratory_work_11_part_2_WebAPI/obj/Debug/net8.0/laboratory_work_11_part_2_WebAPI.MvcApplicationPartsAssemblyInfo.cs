@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("laboratory_work_10")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eea016428637846721f3bfb4d79e308d4855ef57")]
-[assembly: System.Reflection.AssemblyProductAttribute("laboratory_work_10")]
-[assembly: System.Reflection.AssemblyTitleAttribute("laboratory_work_10")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
 
 // Создано классом WriteCodeFragment MSBuild.
 
