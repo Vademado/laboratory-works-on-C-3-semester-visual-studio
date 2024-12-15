@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = laboratory_work_12
+build_property.RootNamespace = laboratory_work_12
+build_property.ProjectDir = E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_12\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_12
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Equipments/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXF1aXBtZW50c1xQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Projects/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvamVjdHNcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Areas/Scientists/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2NpZW50aXN0c1xQYWdlc1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/laboratory-works-on-C-3-semester-visual-studio/laboratory_work_12/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rd9bscxdi8
