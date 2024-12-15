@@ -46,6 +46,7 @@ namespace laboratory_work_11_part_2.Controllers
             if (supplierDB == null) return NotFound();
             foreach (var field in typeof(Supplier).GetProperties())
             {
+                if (field.Name == "SupplierId") continue;
                 field.SetValue(supplierDB, field.GetValue(supplier));
             }
             await context.SaveChangesAsync();

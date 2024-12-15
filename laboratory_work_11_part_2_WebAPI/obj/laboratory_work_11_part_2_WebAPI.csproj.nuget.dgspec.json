@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj": {}
+    "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj": {
+    "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj",
+        "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj",
         "projectName": "laboratory_work_11_part_2_WebAPI",
-        "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\obj\\",
+        "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\laboratory_work_11_part_2_WebAPI.csproj",
+        "packagesPath": "C:\\Users\\sergo\\.nuget\\packages\\",
+        "outputPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
