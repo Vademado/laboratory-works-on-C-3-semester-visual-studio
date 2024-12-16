@@ -1,0 +1,15 @@
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.GeneratedMSBuildEditorConfig.editorconfig
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.AssemblyInfoInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.AssemblyInfo.cs
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.csproj.CoreCompileInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.sourcelink.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\bin\Debug\net8.0\laboratory_work_15.exe
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\bin\Debug\net8.0\laboratory_work_15.deps.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\bin\Debug\net8.0\laboratory_work_15.runtimeconfig.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\bin\Debug\net8.0\laboratory_work_15.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\bin\Debug\net8.0\laboratory_work_15.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\refint\laboratory_work_15.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\laboratory_work_15.genruntimeconfig.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_15\obj\Debug\net8.0\ref\laboratory_work_15.dll
