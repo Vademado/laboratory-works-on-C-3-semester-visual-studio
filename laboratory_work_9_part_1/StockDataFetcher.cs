@@ -1,18 +1,11 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Runtime.InteropServices.ComTypes;
-using System.Runtime.Serialization.Formatters;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Timers;
-using System.Xml.Linq;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace laboratory_work_9
 {

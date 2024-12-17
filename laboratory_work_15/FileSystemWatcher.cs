@@ -81,7 +81,7 @@
 
         private void CheckFiles(object obj)
         {
-            foreach(var file in CurrentFiles.Except(PrimaryFiles))
+            foreach (var file in CurrentFiles.Except(PrimaryFiles))
             {
                 Notify.Invoke(this, new FileSystemWatcherEventArgs(file, ECondition.Created));
             }
