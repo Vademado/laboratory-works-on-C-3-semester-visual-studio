@@ -14,4 +14,6 @@ public partial class Scientist
     public string Specialty { get; set; }
 
     public string Email { get; set; }
+
+    public virtual ICollection<Project> Projects { get; set; } = new List<Project>();
 }

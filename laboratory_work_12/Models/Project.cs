@@ -16,4 +16,8 @@ public partial class Project
     public DateTime? EndDate { get; set; }
 
     public int? ScientistId { get; set; }
+
+    public virtual ICollection<Equipment> Equipment { get; set; } = new List<Equipment>();
+
+    public virtual Scientist Scientist { get; set; }
 }

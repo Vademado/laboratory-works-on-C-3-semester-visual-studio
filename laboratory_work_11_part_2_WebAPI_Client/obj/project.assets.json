@@ -2758,23 +2758,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sergo\\.nuget\\packages\\": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\laboratory_work_11_part_2_WebAPI_Client.csproj",
+      "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\laboratory_work_11_part_2_WebAPI_Client.csproj",
       "projectName": "laboratory_work_11_part_2_WebAPI_Client",
-      "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\laboratory_work_11_part_2_WebAPI_Client.csproj",
-      "packagesPath": "C:\\Users\\sergo\\.nuget\\packages\\",
-      "outputPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\obj\\",
+      "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\laboratory_work_11_part_2_WebAPI_Client.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_11_part_2_WebAPI_Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -22,7 +22,8 @@ namespace laboratory_work_12.Areas.Projects.Pages
 
         public async Task OnGetAsync()
         {
-            Project = await _context.Projects.ToListAsync();
+            Project = await _context.Projects
+                .Include(p => p.Scientist).ToListAsync();
         }
     }
 }

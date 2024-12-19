@@ -29,6 +29,10 @@ public partial class ScientificLaboratoryDBContext : DbContext
             entity.Property(e => e.Status)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.Project).WithMany(p => p.Equipment)
+                .HasForeignKey(d => d.ProjectId)
+                .HasConstraintName("FK_Equipment_Projects");
         });
 
         modelBuilder.Entity<Project>(entity =>
@@ -38,6 +42,10 @@ public partial class ScientificLaboratoryDBContext : DbContext
             entity.Property(e => e.Title)
                 .HasMaxLength(200)
                 .IsUnicode(false);
+
+            entity.HasOne(d => d.Scientist).WithMany(p => p.Projects)
+                .HasForeignKey(d => d.ScientistId)
+                .HasConstraintName("FK_Projects_Scientists");
         });
 
         modelBuilder.Entity<Scientist>(entity =>

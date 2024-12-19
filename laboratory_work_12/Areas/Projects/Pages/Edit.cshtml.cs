@@ -35,6 +35,7 @@ namespace laboratory_work_12.Areas.Projects.Pages
                 return NotFound();
             }
             Project = project;
+           ViewData["ScientistId"] = new SelectList(_context.Scientists, "ScientistId", "ScientistId");
             return Page();
         }
 

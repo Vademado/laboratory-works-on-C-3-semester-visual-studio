@@ -14,4 +14,6 @@ public partial class Equipment
     public string Status { get; set; }
 
     public int? ProjectId { get; set; }
+
+    public virtual Project Project { get; set; }
 }

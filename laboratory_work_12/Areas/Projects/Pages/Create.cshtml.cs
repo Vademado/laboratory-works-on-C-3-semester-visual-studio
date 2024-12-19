@@ -20,6 +20,7 @@ namespace laboratory_work_12.Areas.Projects.Pages
 
         public IActionResult OnGet()
         {
+        ViewData["ScientistId"] = new SelectList(_context.Scientists, "ScientistId", "ScientistId");
             return Page();
         }
 

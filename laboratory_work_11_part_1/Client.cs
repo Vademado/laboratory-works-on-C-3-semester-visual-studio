@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace laboratory_work_11
 {
@@ -38,8 +35,15 @@ namespace laboratory_work_11
                 await tcpClient.Client.SendAsync(size);
                 await tcpClient.Client.SendAsync(data);
 
-                Console.WriteLine("Сообщение отправлено");
-            }
+
+
+                byte[] sizeBuffer = new byte[8];
+                await tcpClient.Client.ReceiveAsync(sizeBuffer);
+                int sizeResponceData = BitConverter.ToInt32(sizeBuffer, 0);
+
+                byte[] responceData = new byte[sizeResponceData];
+                int responceBytes = await tcpClient.Client.ReceiveAsync(responceData);
+                var responceMessage = BitConverter.ToDouble()
             finally
             {
                 tcpClient.Close();

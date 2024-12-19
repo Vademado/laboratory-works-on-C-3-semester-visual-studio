@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj": {}
+    "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj": {}
   },
   "projects": {
-    "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj": {
+    "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj",
+        "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj",
         "projectName": "laboratory_work_10",
-        "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj",
-        "packagesPath": "C:\\Users\\sergo\\.nuget\\packages\\",
-        "outputPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\obj\\",
+        "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\laboratory_work_10.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_10\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -22,7 +22,8 @@ namespace laboratory_work_12.Areas.Equipments.Pages
 
         public async Task OnGetAsync()
         {
-            Equipment = await _context.Equipment.ToListAsync();
+            Equipment = await _context.Equipment
+                .Include(e => e.Project).ToListAsync();
         }
     }
 }

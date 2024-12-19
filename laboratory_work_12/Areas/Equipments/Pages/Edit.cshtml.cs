@@ -35,6 +35,7 @@ namespace laboratory_work_12.Areas.Equipments.Pages
                 return NotFound();
             }
             Equipment = equipment;
+           ViewData["ProjectId"] = new SelectList(_context.Projects, "ProjectId", "ProjectId");
             return Page();
         }
 
