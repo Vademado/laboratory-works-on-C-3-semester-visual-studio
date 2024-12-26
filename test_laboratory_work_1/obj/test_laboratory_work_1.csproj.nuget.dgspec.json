@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {}
+    "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {}
   },
   "projects": {
-    "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
+    "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj",
+        "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj",
         "projectName": "laboratory_work_1",
-        "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj",
+        "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,20 +20,20 @@
         "net472": {}
       }
     },
-    "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {
+    "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+        "projectUniqueName": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
         "projectName": "test_laboratory_work_1",
-        "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\obj\\",
+        "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\test_laboratory_work_1.csproj",
+        "packagesPath": "C:\\Users\\sergo\\.nuget\\packages\\",
+        "outputPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\test_laboratory_work_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,14 +42,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
-                "projectPath": "D:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj"
+              "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj": {
+                "projectPath": "E:\\laboratory-works-on-C-3-semester-visual-studio\\laboratory_work_1\\laboratory_work_1.csproj"
               }
             }
           }

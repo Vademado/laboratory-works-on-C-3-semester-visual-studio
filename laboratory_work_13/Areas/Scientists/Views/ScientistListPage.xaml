@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:laboratory_work_13.Models"
+             xmlns:viewModels="clr-namespace:laboratory_work_13.Areas.Scientists.ViewModels"
+             x:DataType="viewModels:ScientistListPageViewModel"
+             x:Class="laboratory_work_13.Areas.Scientists.Views.ScientistListPage"
+             Title="Scientist List">
+    <Grid Padding="10">
+        <!-- Определим 2 строки и 2 столбца в Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- Для таблицы -->
+            <RowDefinition Height="Auto" />
+            <!-- Для кнопок -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <!-- Для левой кнопки -->
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ScrollView Grid.Row="0" Grid.ColumnSpan="2">
+            <CollectionView ItemsSource="{Binding Scientists}" VerticalOptions="FillAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Scientist">
+                        <Frame Margin="10" Padding="10">
+                            <StackLayout Margin="10">
+                                <HorizontalStackLayout Spacing="15">
+                                    <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Specialty}" FontSize="18" FontAttributes="Bold"/>
+                                </HorizontalStackLayout>
+                                <Label Text="{Binding Email}"/>
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:RelativeSource AncestorType={x:Type viewModels:ScientistListPageViewModel}},
+                                    Path=DisplayActionCommand}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        <Button Text="Back" Command="{Binding BackCommand}" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+        <Button Text="Add scientist" Command="{Binding AddUpdateScientistCommand}" HorizontalOptions="EndAndExpand" Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+</ContentPage>

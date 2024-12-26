@@ -1,0 +1,15 @@
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\bin\Debug\net8.0\laboratory_work_11_part_1_TCPClient.exe
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\bin\Debug\net8.0\laboratory_work_11_part_1_TCPClient.deps.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\bin\Debug\net8.0\laboratory_work_11_part_1_TCPClient.runtimeconfig.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\bin\Debug\net8.0\laboratory_work_11_part_1_TCPClient.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\bin\Debug\net8.0\laboratory_work_11_part_1_TCPClient.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.AssemblyInfoInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.AssemblyInfo.cs
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.csproj.CoreCompileInputs.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.sourcelink.json
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\refint\laboratory_work_11_part_1_TCPClient.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.pdb
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\laboratory_work_11_part_1_TCPClient.genruntimeconfig.cache
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_1_TCPClient\obj\Debug\net8.0\ref\laboratory_work_11_part_1_TCPClient.dll

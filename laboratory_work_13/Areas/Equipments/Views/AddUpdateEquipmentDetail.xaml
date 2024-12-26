@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="laboratory_work_13.Areas.Equipments.Views.AddUpdateEquipmentDetail"
+             Title="Add / Update Equipment Detail">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="TextColor" Value="SlateGray"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Margin="10" Spacing="15">
+
+        <VerticalStackLayout Margin="10">
+            <Label Text="Name" FontSize="16" />
+            <Entry Text="{Binding EquipmentDetail.Name}" Placeholder="Name" />
+            <BoxView HeightRequest="0.8" Color="Gray" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="Status" FontSize="16" />
+            <Entry Text="{Binding EquipmentDetail.Status}" Placeholder="Status" />
+            <BoxView HeightRequest="0.8" Color="Gray" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout>
+            <Label Text="ProjectId" FontSize="16" />
+            <Entry Text="{Binding EquipmentDetail.ProjectId}" Placeholder="ProjectId" />
+            <BoxView HeightRequest="0.8" Color="Gray" />
+        </VerticalStackLayout>
+        <Button Text="Save" Command="{Binding AddUpdateEquipmentCommand}"/>
+    </StackLayout>
+</ContentPage>
