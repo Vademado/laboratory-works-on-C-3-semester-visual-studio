@@ -163,3 +163,4 @@ E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_2_WebA
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_2_WebAPI\obj\Debug\net8.0\laboratory_work_11_part_2_WebAPI.pdb
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_2_WebAPI\obj\Debug\net8.0\laboratory_work_11_part_2_WebAPI.genruntimeconfig.cache
 E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_2_WebAPI\obj\Debug\net8.0\ref\laboratory_work_11_part_2_WebAPI.dll
+E:\laboratory-works-on-C-3-semester-visual-studio\laboratory_work_11_part_2_WebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

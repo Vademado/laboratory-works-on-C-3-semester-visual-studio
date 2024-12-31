@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>laboratory_work_14_MAUIApp</name>
+    </assembly>
+    <members>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel.EquipmentDetail">
+            <inheritdoc cref="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel._equipmentDetail"/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel.addUpdateEquipmentCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel.AddUpdateEquipmentCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel.AddUpdateEquipmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.AddUpdateEquipmentDetailViewModel.AddUpdateEquipment"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.getEquipmentListCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.GetEquipmentListCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.GetEquipmentListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.GetEquipmentList"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.addUpdateEquipmentCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.AddUpdateEquipmentCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.AddUpdateEquipmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.AddUpdateEquipment"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.backCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.displayActionCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.DisplayActionCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.DisplayActionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Equipments.ViewModels.EquipmentListPageViewModel.DisplayAction(laboratory_work_14_MAUIApp.Models.Equipment)"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel.ProjectDetail">
+            <inheritdoc cref="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel._projectDetail"/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel.addUpdateProjectCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel.AddUpdateProjectCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel.AddUpdateProjectCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.AddUpdateProjectDetailViewModel.AddUpdateProject"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.getProjectListCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.GetProjectListCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.GetProjectListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.GetProjectList"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.addUpdateProjectCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.AddUpdateProjectCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.AddUpdateProjectCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.AddUpdateProject"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.backCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.displayActionCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.DisplayActionCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.DisplayActionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Projects.ViewModels.ProjectListPageViewModel.DisplayAction(laboratory_work_14_MAUIApp.Models.Project)"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel.ScientistDetail">
+            <inheritdoc cref="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel._scientistDetail"/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel.addUpdateScientistCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel.AddUpdateScientistCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel.AddUpdateScientistCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.AddUpdateScientistDetailViewModel.AddUpdateScientist"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.getScientistListCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.GetScientistListCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.GetScientistListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.GetScientistList"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.addUpdateScientistCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.AddUpdateScientistCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.AddUpdateScientistCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.AddUpdateScientist"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.backCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.BackCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.BackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.Back"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.displayActionCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.DisplayActionCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.DisplayActionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.Areas.Scientists.ViewModels.ScientistListPageViewModel.DisplayAction(laboratory_work_14_MAUIApp.Models.Scientist)"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.NavigationPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.NavigationPageViewModel.navigateToTableScientistsCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableScientistsCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableScientistsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableScientists"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.NavigationPageViewModel.navigateToTableProjectsCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableProjectsCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableProjectsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableProjects"/>.</summary>
+        </member>
+        <member name="F:laboratory_work_14_MAUIApp.NavigationPageViewModel.navigateToTableEquipmentsCommand">
+            <summary>The backing field for <see cref="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableEquipmentsCommand"/>.</summary>
+        </member>
+        <member name="P:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableEquipmentsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:laboratory_work_14_MAUIApp.NavigationPageViewModel.NavigateToTableEquipments"/>.</summary>
+        </member>
+        <member name="T:laboratory_work_14_MAUIApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EquipmentDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EquipmentDetail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProjectDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProjectDetail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ScientistDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ScientistDetail" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EquipmentDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EquipmentDetail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProjectDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProjectDetail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ScientistDetail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ScientistDetail" generated properties.</summary>
+        </member>
+    </members>
+</doc>

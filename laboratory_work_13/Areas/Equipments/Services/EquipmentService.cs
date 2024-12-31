@@ -29,7 +29,7 @@ namespace laboratory_work_13.Areas.Equipments.Services
         {
             var equipmentDB = await _context.Equipment.FirstOrDefaultAsync(m => m.EquipmentId == equipment.EquipmentId);
             if (equipmentDB == null) return 0;
-            _context.Equipment.Remove(equipment);
+            _context.Equipment.Remove(equipmentDB);
             return await _context.SaveChangesAsync();
         }
 
@@ -46,6 +46,7 @@ namespace laboratory_work_13.Areas.Equipments.Services
             equipmentDB.Name = equipment.Name;
             equipmentDB.Status = equipment.Status;
             equipmentDB.ProjectId = equipment.ProjectId;
+            _context.Equipment.Update(equipmentDB);
             return await _context.SaveChangesAsync();
         }
 

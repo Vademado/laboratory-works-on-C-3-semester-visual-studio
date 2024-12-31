@@ -36,7 +36,7 @@ namespace laboratory_work_13.Areas.Scientists.Services
                     _context.Projects.Remove(project);
                 }
             }
-            _context.Scientists.Remove(scientist);
+            _context.Scientists.Remove(scientistDB);
             return await _context.SaveChangesAsync();
         }
 
@@ -53,6 +53,7 @@ namespace laboratory_work_13.Areas.Scientists.Services
             scientistDB.Name = scientist.Name;
             scientistDB.Specialty = scientist.Specialty;
             scientistDB.Email = scientist.Email;
+            _context.Scientists.Update(scientistDB);
             return await _context.SaveChangesAsync();
 
         }

@@ -1,0 +1,425 @@
+[
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "GetEquipments",
+    "RelativePath": "Equipment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[laboratory_work_14_WebAPI.Models.Equipment, laboratory_work_14_WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "UpdateEquipment",
+    "RelativePath": "Equipment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipment",
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "CreateEquipment",
+    "RelativePath": "Equipment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipment",
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "Equipment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipment",
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "GetEquipment",
+    "RelativePath": "Equipment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "UpdateEquipment",
+    "RelativePath": "Equipment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "equipment",
+        "Type": "laboratory_work_14_WebAPI.Models.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.EquipmentController",
+    "Method": "DeleteEquipment",
+    "RelativePath": "Equipment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "GetProjects",
+    "RelativePath": "Project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[laboratory_work_14_WebAPI.Models.Project, laboratory_work_14_WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "Project",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "CreateProject",
+    "RelativePath": "Project",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "Project",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "GetProject",
+    "RelativePath": "Project/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "Project/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "project",
+        "Type": "laboratory_work_14_WebAPI.Models.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "Project/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "GetScientists",
+    "RelativePath": "Scientist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[laboratory_work_14_WebAPI.Models.Scientist, laboratory_work_14_WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "UpdateScientist",
+    "RelativePath": "Scientist",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scientist",
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "CreateScientist",
+    "RelativePath": "Scientist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scientist",
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "DeleteScientist",
+    "RelativePath": "Scientist",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scientist",
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "GetScientist",
+    "RelativePath": "Scientist/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "UpdateScientist",
+    "RelativePath": "Scientist/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "scientist",
+        "Type": "laboratory_work_14_WebAPI.Models.Scientist",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "laboratory_work_14_WebAPI.Controllers.ScientistController",
+    "Method": "DeleteScientist",
+    "RelativePath": "Scientist/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

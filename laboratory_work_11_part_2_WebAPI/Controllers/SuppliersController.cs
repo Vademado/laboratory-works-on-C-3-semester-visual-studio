@@ -33,7 +33,7 @@ namespace laboratory_work_11_part_2.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateSupplier(int id, Supplier supplier)
+        public async Task<ActionResult> UpdateSupplier(int id, Supplier supplier)
         {
             if (id != supplier.SupplierId)
             {
@@ -51,7 +51,6 @@ namespace laboratory_work_11_part_2.Controllers
             }
             await context.SaveChangesAsync();
             return Ok();
-
         }
 
         [HttpPost]
@@ -65,7 +64,7 @@ namespace laboratory_work_11_part_2.Controllers
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteSupplier(int id)
+        public async Task<ActionResult> DeleteSupplier(int id)
         {
             var supplierDB = await (from suplr in context.Suppliers
                                     where suplr.SupplierId == id

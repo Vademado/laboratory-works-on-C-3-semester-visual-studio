@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:laboratory_work_14_MAUIApp"
+             x:Class="laboratory_work_14_MAUIApp.NavigationPage"
+             Title="Database Navigation"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Navigate Between Database Tables"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               TextColor="{DynamicResource PrimaryTextColor}" />
+        <VerticalStackLayout Spacing="10">
+            <Button Text="Table Scientists"
+                    FontSize="16"
+                    BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                    TextColor="{DynamicResource ButtonTextColor}"
+                    CornerRadius="10"
+                    HeightRequest="45"
+                    Command="{Binding NavigateToTableScientistsCommand}" />
+            <Button Text="Table Projects"
+                    FontSize="16"
+                    BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                    TextColor="{DynamicResource ButtonTextColor}"
+                    CornerRadius="10"
+                    HeightRequest="45"
+                    Command="{Binding NavigateToTableProjectsCommand}" />
+            <Button Text="Table Equipments"
+                    FontSize="16"
+                    BackgroundColor="{DynamicResource ButtonBackgroundColor}"
+                    TextColor="{DynamicResource ButtonTextColor}"
+                    CornerRadius="10"
+                    HeightRequest="45"
+                    Command="{Binding NavigateToTableEquipmentsCommand}" />
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

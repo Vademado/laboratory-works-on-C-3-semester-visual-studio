@@ -11,8 +11,8 @@ namespace laboratory_work_13.Areas.Projects.Services
 {
     public class ProjectService : IProjectService
     {
-        private readonly laboratory_work_13.Models.ScientificLaboratoryDBContext _context;
-        public ProjectService(laboratory_work_13.Models.ScientificLaboratoryDBContext context)
+        private readonly ScientificLaboratoryDBContext _context;
+        public ProjectService(ScientificLaboratoryDBContext context)
         {
             _context = context;
         }
@@ -34,7 +34,7 @@ namespace laboratory_work_13.Areas.Projects.Services
 
             var equipmentsList = await _context.Equipment.Where(s => s.ProjectId == project.ProjectId).ToListAsync();
             foreach (var equipment in equipmentsList) _context.Equipment.Remove(equipment);
-            _context.Projects.Remove(project);
+            _context.Projects.Remove(projectDB);
             return await _context.SaveChangesAsync();
         }
 
@@ -51,9 +51,7 @@ namespace laboratory_work_13.Areas.Projects.Services
             projectDB.StartDate = project.StartDate;
             projectDB.EndDate = project.EndDate;
             projectDB.ScientistId = project.ScientistId;
-
             _context.Projects.Update(projectDB);
-
             return await _context.SaveChangesAsync();
         }
     }

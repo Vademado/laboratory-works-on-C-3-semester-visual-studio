@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\laboratory_work_14_WebAPI.props" />
+</Project>

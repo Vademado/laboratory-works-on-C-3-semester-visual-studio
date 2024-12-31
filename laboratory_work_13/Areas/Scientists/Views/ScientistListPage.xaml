@@ -7,16 +7,12 @@
              x:Class="laboratory_work_13.Areas.Scientists.Views.ScientistListPage"
              Title="Scientist List">
     <Grid Padding="10">
-        <!-- Определим 2 строки и 2 столбца в Grid -->
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
-            <!-- Для таблицы -->
             <RowDefinition Height="Auto" />
-            <!-- Для кнопок -->
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <!-- Для левой кнопки -->
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <ScrollView Grid.Row="0" Grid.ColumnSpan="2">
